@@ -9,14 +9,14 @@ ROW_SIZE = COLUMN_SIZE = 25
 class Snake(object):
 
 	HORIZONTAL_KEY_IMPACT = { 	"Up": -1,
-								"Down": 1,
-								"Right": 0,
-								"Left": 0
+					"Down": 1,
+					"Right": 0,
+					"Left": 0
 	}
 	VERTICAL_KEY_IMPACT = { 	"Up": 0,
-								"Down": 0,
-								"Right": 1,
-								"Left": -1
+					"Down": 0,
+					"Right": 1,
+					"Left": -1
 	}
 
 	direction = ["Right", "Left", "Up", "Down"][random.randint(0,3)]
